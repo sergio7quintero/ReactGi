@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import BasicInfo from "./components/BasicInfo";
 import "./App.css";
+import VeryEasy from "./Very-Easy/Very-Easy";
 
 export default class App extends Component {
   constructor(props) {
@@ -27,7 +28,7 @@ export default class App extends Component {
         },
         {
           name: "Cristiano Ronaldo",
-          email: "Cristianoisthegoat@gmail.com",
+          email: "cristianoisthegoat@gmail.com",
           dob: "February 5, 1985",
           city: "Madrid, Spain",
         },
@@ -38,10 +39,11 @@ export default class App extends Component {
     const { person } = this.state;
 
     return (
-      <div className="people">
+      <div className="people-css">
         {person.map((people) => (
           <BasicInfo person={people} />
         ))}
+        {/* <VeryEasy /> */}
       </div>
     );
   }

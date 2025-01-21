@@ -37,7 +37,27 @@
   }
 }
 
-.people {
+body {
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(97, 97, 97));
+}
+
+.name-css {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #4a90e2;
   text-align: center;
-  color: red;
+  margin: 1rem 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode";
+}
+
+.info-css {
+  font-size: 1.6rem;
+  color: #ffffff;
+  text-align: center;
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+.people-css {
+  text-align: center;
 }
